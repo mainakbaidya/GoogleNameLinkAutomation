@@ -37,7 +37,7 @@ public class TestCases {
 
         //Store all links in list
         List<WebElement> elements = new ArrayList<>();
-        elements = driver.findElements(By.tagName("a"));
+        elements = driver.findElements(By.partialLinkText("Mainak Baidya"));
         Thread.sleep(2000);
 
         //Print count of link
